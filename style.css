@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.text-left{
+    font-size: 50px;
+}
+
+.text-left1{
+    margin-top: 20px;
+}
+
+.text-left2{
+    margin-top: 20px;
+}
+
+.text-color{
+    color: brown;
+}
+
+.gender{
+    margin-top: 30px;
+}
+
+.container1{
+    display: flex; 
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-right: 400px;
+
+}
+
+.container-color{
+    color: brown;
+}
+
+.container-color1{
+    color: brown;
+}
+
+.male{
+    margin-left: 100px;
+    
+}
+
+.parent{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.birthday{
+    margin-top: -100px;
+}
+
+.Enter{
+    color: brown;
+}
+
+.output{
+    margin-top: 80px;
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+.mainButton{
+    margin-top: 20px;
+}

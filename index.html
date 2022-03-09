@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKAN NAMES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+    <div class="container">
+        <h1 class="text-left">AKAN <span class="text-color">NAMES</span></h1>
+        <p class="text-left1">A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender <br> outputs their Akan Name. Akan names are derived from the Ghanaian culture.Frequently in Ghana, children are given their first name <br> as a 'Day name' which corresponds to the day in the week they were born.These "day names" have further meanings concerning the soul <br> and character of the person.</p>
+        <p class="text-left2">Here are some Ghanaian Names:</p>
+    </div>
+
+   <div class="parent">
+        <div class="container1"> 
+            <div class="margin">
+                <ul>
+                    <h4 class="container-color">Female</h4>
+                    <li>Sunday: Akosua</li>
+                    <li>Monday: Adwoa</li>
+                    <li>Tuesday: Abenaa</li>
+                    <li>Wednesday: Akua</li>
+                    <li>Thursday: Yaa</li>
+                    <li>Friday: Afua</li>
+                    <li>Saturday: Ama</li>
+                </ul>
+            </div>
+        
+            <div class="male">
+                <ul>
+                    <h4 class="container-color1">Male</h4>
+                    <li>Sunday: Kwasi</li>
+                    <li>Monday: Kwandwo</li>
+                    <li>Tuesday: Kwabena</li>
+                    <li>Wednesday: Kwaku</li>
+                    <li>Thursday: Yaw</li>
+                    <li>Friday: Kofi</li>
+                    <li>Saturday: Kwame</li>
+                </ul>
+            </div>
+        </div>
+
+       <div class="birthday">
+           
+            <h3 class="Enter">PLEASE ENTER YOUR BIRTHDAY HERE:</h3>
+
+            <form style="margin-top: 20px;">
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+            </form>
+
+            <h4 class="gender">Gender</h4>
+
+              <input type="radio" id="male" name="fav_language" value="male">
+              <label for="html">Male</label><br>
+              <input type="radio" id="female" name="fav_language" value="female">
+              <label for="css">Female</label><br>
+
+              <div class="mainButton">
+                <button class="button"onclick="getAkanName()" id="AkanName">Get Akan Name</button>
+                <button class="button1">Cancel</button>
+              </div>
+
+
+            <div class="output">
+                <p><input type="text" id="akan-name-text" href="#AkanName"></p>
+            </div>
+       </div>
+   </div>
+</body>
+<script src="ip.js"></script>
+
+<footer>
+    <p style="text-align: center;">Powered by <a href="https://moringaschool.com/" target="_blank">Moringa</a>. &copy; 2021 All Rights Reserved. Akan Names Application</p>
+</footer>
+
+</html>
